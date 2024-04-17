@@ -6,8 +6,7 @@ int my_get_char_repeat(char to_find, const char *to_search) {
     while (to_search[len] != '\0') {
         len++;
     }
-    for (int i = 0; i < len; i++)
-    {
+    for (int i = 0; i < len; i++) {
         if (to_search[i] == to_find) {
             iter++;
         }

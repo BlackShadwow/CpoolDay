@@ -5,8 +5,7 @@ char *my_char_replace(char *origin, char toFind, char toReplace) {
     while (origin[len] != '\0') {
         len++;
     }
-    for (int i = 0; i < len; i++)
-    {
+    for (int i = 0; i < len; i++){
         if (origin[i] == toFind) {
             origin[i] = toReplace;
         }
